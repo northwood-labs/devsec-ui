@@ -1,0 +1,18 @@
+---
+twitter:
+  service: Twitter
+  profile: https://twitter.com/intent/tweet?url=@@PERMALINK@@&text=@@TITLE@@&via=skyzyx
+  type: text/html
+  rel: share
+
+facebook:
+  service: Facebook
+  profile: https://facebook.com/sharer/sharer.php?u=@@PERMALINK@@
+  type: text/html
+  rel: share
+
+linkedin:
+  service: LinkedIn
+  profile: https://www.linkedin.com/sharing/share-offsite/?url=@@PERMALINK@@&title=@@TITLE@@
+  type: text/html
+  rel: share

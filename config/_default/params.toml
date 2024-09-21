@@ -1,0 +1,30 @@
+# Cloudflare
+cloudflareApiKey    = ""
+cloudflareZoneId    = ""
+cloudflareAccountId = ""
+cloudflareEmail     = ""
+
+# Google Analytics
+googleAnalytics  = "" # https://analytics.google.com/analytics/web/#/a124176424w182560743p180239535/admin/tracking/tracking-code/
+googleMapsAPIKey = "" # https://console.cloud.google.com/google/maps-apis/apis/static-maps-backend.googleapis.com/credentials
+
+# Meta
+title               = "DevSec Tools"
+description         = ""
+domain              = "devsec.tools"
+favicon             = ""
+gravatar_1x         = ""
+gravatar_2x         = ""
+gravatar_3x         = ""
+gravatar_4x         = ""
+iso8601             = "2006-01-02T15:04:05-07:00"
+locale              = "en_US"
+recent_posts_number = 5
+templateDebugger    = false
+
+# OEmbed images
+defaultOembed   = ""
+oembedMediaType = ""
+oembedWidth     = 0
+oembedHeight    = 0
+oembedAlt       = ""

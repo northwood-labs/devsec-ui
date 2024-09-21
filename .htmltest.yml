@@ -1,0 +1,8 @@
+---
+# https://github.com/wjdp/htmltest
+DirectoryPath: public
+FileExtension: .html
+CheckExternal: true
+CheckInternal: false
+CheckInternalHash: false
+IgnoreAltMissing: true

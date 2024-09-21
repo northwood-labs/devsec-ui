@@ -1,0 +1,30 @@
+---
+norton:
+  service: Norton Safeweb
+  key: norton-safeweb-site-verification
+  value:
+
+google:
+  service: Google
+  key: google-site-verification
+  value:
+
+bing:
+  service: Microsoft Bing
+  key: msvalidate.01
+  value:
+
+pinterest:
+  service: Pinterest
+  key: "p:domain_verify"
+  value:
+
+pocket:
+  service: Pocket
+  key: pocket-site-verification
+  value:
+
+yandex:
+  service: Yandex
+  key: yandex-verification
+  value:

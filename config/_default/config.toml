@@ -1,0 +1,65 @@
+# https://gohugo.io/getting-started/configuration/
+
+# Dirs
+archetypeDir = "archetypes"
+assetDir     = "assets"
+contentDir   = "content"
+dataDir      = "data"
+publishDir   = "public"
+themesDir    = "themes"
+
+# Build
+buildDrafts           = false
+buildExpired          = false
+buildFuture           = false
+cleanDestinationDir   = true
+disableKinds          = ["categories", "tags"]
+metaDataFormat        = "toml"
+preserveTaxonomyNames = true
+refLinksErrorLevel    = "ERROR"
+rssLimit              = 20
+stepAnalysis          = true
+summaryLength         = 80
+templateMetrics       = true
+templateMetricsHints  = true
+timeout               = "30s"
+
+# Robots and Metadata
+canonifyURLs                         = false
+disableAliases                       = false
+disableHugoGeneratorInject           = false
+disableLiveReload                    = false
+disablePathToLower                   = false
+enableEmoji                          = true
+enableGitInfo                        = true
+enableInlineShortcodes               = false
+enableMissingTranslationPlaceholders = true
+enableRobotsTXT                      = true
+pluralizeListTitles                  = true
+relativeURLs                         = true
+removePathAccents                    = true
+
+# Language and TZ
+defaultContentLanguage         = "en"
+defaultContentLanguageInSubdir = false
+hasCJKLanguage                 = false
+languageCode                   = "en-us"
+timeZone                       = "US/Mountain"
+
+# Other
+footnoteAnchorPrefix       = ""
+footnoteReturnLinkContents = "↩"
+gc                         = true
+googleAnalytics            = ""
+log                        = true
+pagination.pagerSize       = 10
+pagination.path            = "p"
+theme                      = "dst2024"
+title                      = "DevSec Tools"
+titleCaseStyle             = "AP"                      # https://gohugo.io/getting-started/configuration/#configure-title-case
+toc                        = true
+uglyURLs                   = false
+watch                      = false
+
+# Special
+_merge = "deep"

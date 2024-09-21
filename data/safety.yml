@@ -1,0 +1,31 @@
+---
+
+google_safe_browsing:
+  service: Google Safe Browsing
+  profile: https://transparencyreport.google.com/safe-browsing/search?url=
+  type: text/html
+  rel: safety
+
+google_certs:
+  service: Google Certificate Transparency Report
+  profile: "https://transparencyreport.google.com/https/certificates?cert_search=include_expired:false;include_subdomains:true;domain:"
+  type: text/html
+  rel: safety
+
+google_copyright:
+  service: Google Copyright Infringement Report
+  profile: "https://transparencyreport.google.com/copyright/explore?copyright_data_exploration=ce:domain;size:10;q:"
+  type: text/html
+  rel: safety
+
+site_advisor:
+  service: Site Advisor
+  profile: https://www.siteadvisor.com/sitereport.html?url=
+  type: text/html
+  rel: safety
+
+norton:
+  service: Norton Safeweb
+  profile: https://safeweb.norton.com/report/show?url=
+  type: text/html
+  rel: safety

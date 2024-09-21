@@ -1,0 +1,12 @@
+---
+ignored:
+  - DL3008 # https://github.com/hadolint/hadolint/wiki/DL3008
+  - DL3009 # https://github.com/hadolint/hadolint/wiki/DL3009
+  - DL3013 # https://github.com/hadolint/hadolint/wiki/DL3013
+  - DL3016 # https://github.com/hadolint/hadolint/wiki/DL3016
+  - DL3018 # https://github.com/hadolint/hadolint/wiki/DL3018 (only for Alpine, only for testing)
+  - DL3047 # https://github.com/hadolint/hadolint/wiki/DL3047 (not applicable to Alpine)
+  - DL3059 # https://github.com/hadolint/hadolint/wiki/DL3059 (bad advice)
+
+trustedRegistries:
+  - docker.io # Official upstream

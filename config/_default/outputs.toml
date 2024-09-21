@@ -1,0 +1,6 @@
+# https://gohugo.io/templates/output-formats/
+
+home    = ["HTML"]
+page    = ["HTML"]
+section = ["HTML"]
+term    = ["HTML"]

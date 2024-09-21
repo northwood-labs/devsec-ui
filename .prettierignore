@@ -1,0 +1,23 @@
+# Ignore everything except for HTML files
+bin
+config
+content
+data
+dist
+resources
+static
+.*ignore
+.*rc
+.parcel-cache
+.vscode
+*.css
+*.js
+*.json
+*.lock
+*.md
+*.svg
+*.toml
+*.txt
+*.yaml
+*.yapf
+*.yml
