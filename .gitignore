@@ -42,5 +42,4 @@ tests/terratest-*
 tfplan
 # goplicate-end:terraform
 
-# Datagrip
-.idea/
+public/
