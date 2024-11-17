@@ -1,8 +1,0 @@
----
-services:
-  "js-runtime":
-    build:
-      context: .
-      dockerfile: Dockerfile
-    volumes:
-      - ../../:/workspace
