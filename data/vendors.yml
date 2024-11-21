@@ -1,0 +1,16 @@
+---
+aws:
+  name: Amazon Web Services
+  logo: partial:aws
+azure:
+  name: Microsoft Azure
+  logo: partial:azure
+cloudflare:
+  name: Cloudflare
+  logo: partial:cloudflare
+gcp:
+  name: Google Cloud Provider
+  logo: partial:gcp
+nginx:
+  name: Nginx
+  logo: partial:nginx

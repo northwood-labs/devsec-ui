@@ -1,12 +1,5 @@
-# Cloudflare
-cloudflareApiKey    = ""
-cloudflareZoneId    = ""
-cloudflareAccountId = ""
-cloudflareEmail     = ""
-
 # Google Analytics
 googleAnalytics  = "" # https://analytics.google.com/analytics/web/#/a124176424w182560743p180239535/admin/tracking/tracking-code/
-googleMapsAPIKey = "" # https://console.cloud.google.com/google/maps-apis/apis/static-maps-backend.googleapis.com/credentials
 
 # Meta
 title               = "DevSec Tools"
@@ -28,3 +21,11 @@ oembedMediaType = ""
 oembedWidth     = 0
 oembedHeight    = 0
 oembedAlt       = ""
+
+# Other settings
+copyrightStart  = "2024"
+copyrightEntity = "Northwood Labs"
+copyrightURL    = "https://northwood-labs.com"
+headerIcon      = ""
+footerLogo      = "https://github.com/northwood-labs/branding/raw/refs/heads/main/NWL-Simplified-Horizontal-Color.svg"
+footerStatement = "Security and reliability tooling — by engineers, for engineers."

@@ -1,0 +1,69 @@
+---
+github:
+  service: GitHub
+  simpleicon: github
+  profile: https://github.com/northwood-labs/
+  type: text/html
+  rel: me
+
+linkedin:
+  service: LinkedIn
+  simpleicon: linkedin
+  profile: https://www.linkedin.com/company/northwood-labs/
+  type: text/html
+  rel: me
+
+facebook:
+  service: Facebook
+  simpleicon: facebook
+  profile: https://www.facebook.com/profile.php?id=61558955227346
+  type: text/html
+  rel: me
+
+instagram:
+  service: Instagram
+  simpleicon: instagram
+  profile: https://www.instagram.com/northwood.labs/
+  handle: "@northwood.labs"
+  type: text/html
+  rel: me
+
+threads:
+  service: Threads
+  simpleicon: threads
+  profile: https://www.threads.net/@northwood.labs
+  handle: "@northwood.labs"
+  type: text/html
+  rel: me
+
+tiktok:
+  service: TikTok
+  simpleicon: tiktok
+  profile: https://www.tiktok.com/@northwood.labs
+  handle: "@northwood.labs"
+  type: text/html
+  rel: me
+
+bluesky:
+  service: Bluesky
+  simpleicon: bluesky
+  profile: https://bsky.app/profile/northwood-labs.bsky.social
+  handle: "@northwood-labs.bsky.social"
+  type: text/html
+  rel: me
+
+mastodon:
+  service: Mastodon
+  simpleicon: mastodon
+  profile: https://techhub.social/@northwoodlabs
+  handle: "@northwoodlabs@techhub.social"
+  type: text/html
+  rel: me
+
+youtube:
+  service: YouTube
+  simpleicon: youtube
+  profile: https://www.youtube.com/@northwoodlabs
+  handle: "@northwoodlabs"
+  type: text/html
+  rel: me
