@@ -197,10 +197,12 @@ lint: license pre-commit
 build:
 	cd themes/dst2024 && npm run build
 	HUGO_ENV=production hugo \
+		--baseURL "https://devsec.tools" \
 		--cleanDestinationDir \
 		--enableGitInfo \
 		--forceSyncStatic \
 		--gc \
+		--minify \
 		--templateMetrics \
 		--templateMetricsHints \
 	;
@@ -208,12 +210,16 @@ build:
 .PHONY: serve
 ## serve: [website] Perform a development build of the website, and run a local web server.
 serve:
-	hugo serve \
+	HUGO_ENV=development hugo serve \
+		--appendPort=false \
+		--baseURL "https://devsec.local" \
 		--buildDrafts \
 		--cleanDestinationDir \
 		--enableGitInfo \
+		--environment development \
 		--forceSyncStatic \
 		--gc \
+		--minify \
 		--noHTTPCache \
 		--templateMetrics \
 		--templateMetricsHints \

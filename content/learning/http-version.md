@@ -3,6 +3,17 @@ title: HTTP Versions
 description: Hypertext Transfer Protocol
 layout: learn-single
 
+good_better_best:
+  1good:
+    title: Good
+    description: 'Enable <span class="ui-badge-success-wrap">HTTP/1.1</span>.'
+  2better:
+    title: Better
+    description: 'Enable <span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-blue-wrap">HTTP/2</span>.'
+  3best:
+    title: Best
+    description: 'Enable <span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-blue-wrap">HTTP/2</span> + <span class="ui-badge-purple-wrap">HTTP/3</span>.'
+
 docs:
   aws:
     cli: "https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudfront/update-distribution.html"
@@ -32,10 +43,6 @@ docs:
     docs: "https://www.slingacademy.com/article/enable-http2-http3-nginx/"
 
 ---
-
-## Bottom-line recommendation
-
-Enable **all** available versions of HTTP.
 
 ## Summary
 
