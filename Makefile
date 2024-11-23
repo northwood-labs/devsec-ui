@@ -211,8 +211,6 @@ build:
 ## serve: [website] Perform a development build of the website, and run a local web server.
 serve:
 	HUGO_ENV=development hugo serve \
-		--appendPort=false \
-		--baseURL "https://devsec.local" \
 		--buildDrafts \
 		--cleanDestinationDir \
 		--enableGitInfo \

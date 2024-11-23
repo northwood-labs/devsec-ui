@@ -5,14 +5,14 @@ layout: learn-single
 
 good_better_best:
   1good:
-    title: Good
+    title: OK
     description: 'Enable <span class="ui-badge-success-wrap">HTTP/1.1</span>.'
   2better:
     title: Better
-    description: 'Enable <span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-blue-wrap">HTTP/2</span>.'
+    description: 'Enable <span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-blue">HTTP/2</span>.'
   3best:
     title: Best
-    description: 'Enable <span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-blue-wrap">HTTP/2</span> + <span class="ui-badge-purple-wrap">HTTP/3</span>.'
+    description: 'Enable <span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-success-wrap">HTTP/2</span> + <span class="ui-badge-success-wrap">HTTP/3</span>.'
 
 docs:
   aws:
