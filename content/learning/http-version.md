@@ -1,18 +1,18 @@
 ---
 title: HTTP Versions
-description: Hypertext Transfer Protocol
+description: Make your site faster by enabling newer HTTP versions.
 layout: learn-single
 
 good_better_best:
   1good:
     title: OK
-    description: 'Enable <span class="ui-badge-success-wrap">HTTP/1.1</span>.'
+    description: '<span class="ui-badge-success-wrap">HTTP/1.1</span>'
   2better:
     title: Better
-    description: 'Enable <span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-blue">HTTP/2</span>.'
+    description: '<span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-tip-wrap">HTTP/2</span>'
   3best:
     title: Best
-    description: 'Enable <span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-success-wrap">HTTP/2</span> + <span class="ui-badge-success-wrap">HTTP/3</span>.'
+    description: '<span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-tip-wrap">HTTP/2</span> + <span class="ui-badge-indigo-wrap">HTTP/3</span>'
 
 docs:
   aws:

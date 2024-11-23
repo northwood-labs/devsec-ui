@@ -1,9 +1,7 @@
 ---
 title: Learning
-description: Gaining greater understanding.
+description: What do the results mean?
 layout: list
 ---
 
-## Documentation
-
-Learn more about how stuff works.
+## How does this stuff work?
