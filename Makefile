@@ -213,6 +213,7 @@ serve:
 	HUGO_ENV=development hugo serve \
 		--buildDrafts \
 		--cleanDestinationDir \
+		--disableFastRender \
 		--enableGitInfo \
 		--environment development \
 		--forceSyncStatic \

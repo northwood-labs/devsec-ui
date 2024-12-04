@@ -5,8 +5,8 @@ default_language_version:
   python: python3.10
 
 default_stages:
-  - commit
-  - push
+  - pre-commit
+  - pre-push
 
 fail_fast: false
 
@@ -59,21 +59,21 @@ repos:
         description: Double-check editorconfig compliance
         entry: bash -c 'editorconfig-checker'
         language: system
-        stages: [commit, push]
+        stages: [pre-commit, pre-push]
 
       - id: trufflehog
         name: TruffleHog
         description: Detect secrets in your data.
         entry: bash -c 'trufflehog git file://. --since-commit HEAD --only-verified --fail --json 2>/dev/null | jq "."'
         language: system
-        stages: [commit, push]
+        stages: [pre-commit, pre-push]
 
       - id: trivy-vuln
         name: Trivy (Vulnerabilities)
         description: Check for security vulnerabilities. (https://trivy.dev)
         entry: bash -c 'trivy fs --config trivy-vuln.yaml --ignorefile .trivyignore.yaml .'
         language: system
-        stages: [commit, push]
+        stages: [pre-commit, pre-push]
         # Troubleshooting: https://aquasecurity.github.io/trivy/latest/docs/references/troubleshooting/#denied
 
       - id: yamlfmt
@@ -83,7 +83,7 @@ repos:
           bash -c '(find . -type f -iname "*.yaml" | xargs -I% yamlfmt "%") && \
             (find . -type f -iname "*.yml" | xargs -I% yamlfmt "%")'
         language: system
-        stages: [commit, push]
+        stages: [pre-commit, pre-push]
   # goplicate-end:always
 
   # ----------------------------------------------------------------------------
