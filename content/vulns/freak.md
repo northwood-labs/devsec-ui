@@ -3,6 +3,11 @@ title: FREAK
 description: Factoring RSA Export Keys
 layout: term
 
+year: 2015
+class:
+  - Downgrade attack
+  - Brute force against export-grade encryption
+
 learn_more:
   - text: 'Tracking the FREAK Attack'
     url: https://freakattack.com
@@ -26,11 +31,9 @@ learn_more:
 
 ## Overview
 
-The [FREAK] attack is known as a _downgrade attack_, and reliably breaks U.S. export-grade encryption.
+The [FREAK] attack is known as a _downgrade attack_, which targets handshake messages, particularly DNS information, to exploit vulnerabilities in cipher suites and authentication processes.
 
-Before the year 2000, the U.S. government required any cryptography that was exported from the U.S. to be subject to either substantially-reduced encryption keys or the use of backdoors in the encryption algorithms known to the U.S. government. By modern standards, even in the U.S., these are considered insecure and should not be used.
-
-Whereas [DROWN](/vulns/drown) focuses on SSLv2, and [Logjam](/vulns/logjam) focuses on Diffie-Hellman key exchanges, _FREAK_ targets export-grade encryption.
+Researchers uncovered that many TLS implementations allow authentication message skipping, making them susceptible to these attacks, especially when using compromised code bases or outdated OpenSSL versions. To mitigate risks, organizations should conduct SKIP-TLS risk audits, patch web browsers, and avoid sensitive activities on unsecured networks.
 
 The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with recommended cipher suites) and TLS 1.3.
 
@@ -38,9 +41,9 @@ The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with recomm
 
 ## Information
 
-| Field               | Value            |
-|---------------------|------------------|
-| Cracked             | 2015             |
-| Vulnerability class | Downgrade attack |
+| Field                    | Value               |
+|--------------------------|---------------------|
+| Vulnerability discovered | {{% param-year %}}  |
+| Vulnerability class      | {{% param-class %}} |
 
 [FREAK]: https://en.wikipedia.org/wiki/FREAK

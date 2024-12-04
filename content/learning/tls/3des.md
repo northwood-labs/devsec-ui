@@ -5,6 +5,16 @@ layout: learn-single
 
 vulns:
   - lucky-13
+  - sweet32
+
+learn_more:
+  - text: 'CVE-2016-2183'
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-2183
+    source: NIST
+
+  - text: 'NIST to Withdraw Special Publication 800-67 Revision 2'
+    url: https://csrc.nist.gov/news/2023/nist-to-withdraw-sp-800-67-rev-2
+    source: NIST
 
 ---
 
@@ -12,6 +22,16 @@ vulns:
 
 Although [Triple-DES] (3DES) has not yet been fully broken, it suffers from several vulnerabilities, making it a _weak_ cipher.
 
-Any cipher suite with `3DES` in the name should be avoided.
+The best way to avoid vulnerabilities is to _only_ allow TLS 1.2 (with recommended cipher suites) and TLS 1.3.
 
+## Information
+
+| Field        | Value |
+|--------------|-------|
+| Invented     | 1981  |
+| Cracked      | 2016  |
+| Ephemeral    | _No_  |
+| Related tech | [EMV] |
+
+[EMV]: https://en.wikipedia.org/wiki/EMV
 [Triple-DES]: https://en.wikipedia.org/wiki/Triple_DES

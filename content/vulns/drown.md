@@ -3,6 +3,11 @@ title: DROWN
 description: Decrypting RSA with Obsolete and Weakened eNcryption
 layout: term
 
+year: 2016
+class:
+  - Downgrade attack
+  - Brute force against export-grade encryption
+
 learn_more:
   - text: 'The DROWN Attack'
     url: https://drownattack.com
@@ -18,19 +23,15 @@ learn_more:
 
 ## Overview
 
-[DROWN] is known as a _downgrade attack_. Historically, if a web browser (or other client) tried to connect with modern security, and the server did not support it, the client would then be able to _downgrade_ the level of security to a previous version of TLS or SSL and try to connect there.
-
-Since SSLv2 is known to have many vulnerabilities, [DROWN] forces the connection to _downgrade_ to SSLv2. If the server supports SSLv2, then any known attacks against SSLv2 can be performed to access sensitive/encrypted data. While SSLv2 is the easiest to break, this attack can also be performed against other versions of TLS or SSL in preparation for a different attack.
-
-Whereas [Logjam](/vulns/logjam) focuses on Diffie-Hellman key exchanges, and [FREAK](/vulns/freak) focuses on export-grade encryption, _DROWN_ targets SSLv2.
+The [DROWN] attack is a vulnerability affecting HTTPS and other services using SSL and TLS, allowing attackers to decrypt sensitive communications. The attack exploits SSLv2, a deprecated protocol, to compromise modern TLS connections, even if SSLv2 is not directly used. Server operators must disable SSLv2 or ensure private keys are not used on any SSLv2-supporting servers to mitigate the risk.
 
 The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with recommended cipher suites) and TLS 1.3.
 
 ## Information
 
-| Field               | Value            |
-|---------------------|------------------|
-| Cracked             | 2016             |
-| Vulnerability class | Downgrade attack |
+| Field                    | Value               |
+|--------------------------|---------------------|
+| Vulnerability discovered | {{% param-year %}}  |
+| Vulnerability class      | {{% param-class %}} |
 
 [DROWN]: https://en.wikipedia.org/wiki/DROWN_attack

@@ -7,7 +7,7 @@
 
 [remote.github]
   owner = "northwood-labs"
-  repo  = "test-atlas-ent"
+  repo  = "devsec-ui"
   # token = "" # Use GITHUB_TOKEN environment variable instead.
 
 # goplicate-start:changelog

@@ -30,6 +30,7 @@
       "p",
       "path",
       "picture",
+      "pre",
       "script",
       "source",
       "span",
@@ -233,7 +234,6 @@
       "w-8"
     ],
     "ids": [
-      "--text-cve-2014-0160",
       "a",
       "affected-cipher-suite-classes",
       "aws",
@@ -254,12 +254,10 @@
       "northwood-labs",
       "overview",
       "parts-of-a-cipher-suite",
-      "source-nist",
       "summary",
       "tls-12-with-_forward-secrecy_",
       "tls-13",
-      "tmpl-single",
-      "url-httpsnvdnistgovvulndetailcve-2014-0160"
+      "tmpl-single"
     ]
   }
 }

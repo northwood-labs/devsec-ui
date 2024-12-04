@@ -5,7 +5,7 @@ layout: learn-single
 
 vulns:
   - logjam
-  - raccoon
+  - racoon
 
 learn_more:
   - text: 'Diffie-Hellman problem'

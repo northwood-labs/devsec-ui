@@ -3,6 +3,11 @@ title: Logjam
 description:
 layout: term
 
+year: 2015
+class:
+  - Downgrade attack
+  - Brute force against export-grade encryption
+
 learn_more:
   - text: 'Weak Diffie-Hellman and the Logjam Attack'
     url: https://weakdh.org
@@ -22,21 +27,17 @@ learn_more:
 
 ## Overview
 
-The [Logjam] attack is known as a _downgrade attack_, and reliably breaks U.S. export-grade encryption.
+The [Logjam] attack exposes critical vulnerabilities in the widely used Diffie-Hellman key exchange protocol by enabling attackers to downgrade TLS connections to weaker “export-grade” cryptography, allowing them to intercept and decrypt communication with relative ease.
 
-Before the year 2000, the U.S. government required any cryptography that was exported from the U.S. to be subject to either substantially-reduced encryption keys or the use of backdoors in the encryption algorithms known to the U.S. government. By modern standards, even in the U.S., these are considered insecure and should not be used.
-
-Whereas [DROWN](/vulns/drown) focuses on SSLv2, and [FREAK](/vulns/freak) focuses on export-grade encryption, _Logjam_ targets Diffie-Hellman key exchanges.
-
-In short, while _Logjam_ can be cracked for 512-bit DH keys by anyone with a cloud account, and _Nation-State Cyber Attackers_ can crack 1024-bit DH keys, 2048-bit DH keys are considered safe. That being said, using `ECDHE` key exchanges are even more secure.
+Through precomputation techniques, and exploiting reused/standardized or weak parameters, the cost of large-scale attacks is significantly reduced. The findings of the official research report underline the urgency for transitioning to stronger cryptographic methods, like elliptic curve Diffie-Hellman (ECDHE) and/or larger key sizes, to protect against such attacks and ensure better security practices across the internet.
 
 The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with recommended cipher suites) and TLS 1.3.
 
 ## Information
 
-| Field               | Value            |
-|---------------------|------------------|
-| Cracked             | 2015             |
-| Vulnerability class | Downgrade attack |
+| Field                    | Value               |
+|--------------------------|---------------------|
+| Vulnerability discovered | {{% param-year %}}  |
+| Vulnerability class      | {{% param-class %}} |
 
 [Logjam]: https://en.wikipedia.org/wiki/Logjam_(computer_security)

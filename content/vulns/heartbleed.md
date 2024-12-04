@@ -3,6 +3,10 @@ title: Heartbleed
 description: Vulnerability in OpenSSL’s implementation of the TLS/DTLS heartbeat extension
 layout: term
 
+year: 2014
+class:
+  - Data leakage
+
 learn_more:
   - text: 'Heartbleed'
     url: https://heartbleed.com
@@ -35,7 +39,9 @@ learn_more:
 
 ## Overview
 
-[Heartbleed] is a vulnerability in certain older versions of OpenSSL, due to a bug that allowed an attacker to read more data than they should have been allowed to.
+[Heartbleed] is a vulnerability in OpenSSL’s implementation of the TLS/DTLS heartbeat extension, allowing attackers to leak memory contents.
+
+The bug compromises primary and secondary key material, protected content, and collateral data, requiring patching, key revocation, and reissuing. Widespread adoption of vulnerable OpenSSL versions necessitates coordinated action from service providers and users to mitigate potential exploitation.
 
 This allows an attacker to read additional data beyond the bounds of the TLS handshake in memory — including data that was supposed to be encrypted — fundamentally breaking security on the web. Not only did people need to update the versions of their deployed OpenSSL libraries, but in many cases they also needed to wait for software that was compiled with OpenSSL to be recompiled and released (or recompile the software themselves).
 
@@ -45,10 +51,10 @@ After _Heartbleed_, there were at least two notable forks: [LibreSSL] by the Ope
 
 ## Information
 
-| Field               | Value        |
-|---------------------|--------------|
-| Cracked             | 2014         |
-| Vulnerability class | Data leakage |
+| Field                    | Value               |
+|--------------------------|---------------------|
+| Vulnerability discovered | {{% param-year %}}  |
+| Vulnerability class      | {{% param-class %}} |
 
 [BoringSSL]: https://github.com/google/boringssl
 [Heartbleed]: https://en.wikipedia.org/wiki/Heartbleed

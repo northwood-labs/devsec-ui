@@ -20,7 +20,7 @@ learn_more:
     source: Cloudflare
 
   - text: 'On the Security of RC4 in TLS and WPA'
-    url: https://www.isg.rhul.ac.uk/tls/index.html
+    url: https://www.isg.rhul.ac.uk/tls/
 
 ---
 

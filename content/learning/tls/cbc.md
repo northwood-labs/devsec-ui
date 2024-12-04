@@ -6,6 +6,7 @@ layout: learn-single
 vulns:
   - beast
   - lucky-13
+  - poodle
 
 ---
 

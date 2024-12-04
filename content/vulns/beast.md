@@ -3,6 +3,10 @@ title: BEAST
 description: Browser Exploit Against SSL/TLS
 layout: term
 
+year: 2011
+class:
+  - Data leakage
+
 learn_more:
   - text: 'Lucky 13, BEAST, CRIME,… Is TLS dead, or just resting?'
     url: https://www.ietf.org/proceedings/89/slides/slides-89-irtfopen-1.pdf
@@ -27,11 +31,13 @@ learn_more:
 
 ## Overview
 
-@TODO
+The [BEAST] attack targets a security vulnerability in SSL 3.0 and TLS 1.0 protocols, focusing on their use of CBC (Cipher Block Chaining) encryption. It details an attack capable of decrypting encrypted HTTPS requests and obtaining sensitive information such as authentication tokens or cookies. This attack exploits the predictable chaining of initialization vectors (IVs) in CBC mode, allowing an attacker to recover plaintext efficiently by manipulating and observing ciphertext blocks.
 
 ## Information
 
-| Field               | Value        |
-|---------------------|--------------|
-| Cracked             | 2011         |
-| Vulnerability class | Data leakage |
+| Field                    | Value               |
+|--------------------------|---------------------|
+| Vulnerability discovered | {{% param-year %}}  |
+| Vulnerability class      | {{% param-class %}} |
+
+[BEAST]: https://en.wikipedia.org/wiki/Transport_Layer_Security#BEAST_attack

@@ -3,6 +3,10 @@ title: CRIME
 description: Compression Ratio Info-leak Made Easy
 layout: term
 
+year: 2012
+class:
+  - Compression attack
+
 learn_more:
   - text: 'Lucky 13, BEAST, CRIME,… Is TLS dead, or just resting?'
     url: https://www.ietf.org/proceedings/89/slides/slides-89-irtfopen-1.pdf
@@ -24,13 +28,13 @@ learn_more:
 
 ## Overview
 
-@TODO
+[CRIME] is an attack against TLS that exploits information leakage from data compression before encryption. The attack, which requires server-side compression support and vulnerable clients, can steal session cookies and hijack sessions. While CRIME is easier to exploit than BEAST, mitigation is simpler by disabling TLS compression on servers and updating vulnerable clients.
 
 ## Information
 
-| Field               | Value              |
-|---------------------|--------------------|
-| Cracked             | 2012               |
-| Vulnerability class | Compression attack |
+| Field                    | Value               |
+|--------------------------|---------------------|
+| Vulnerability discovered | {{% param-year %}}  |
+| Vulnerability class      | {{% param-class %}} |
 
 [CRIME]: https://en.wikipedia.org/wiki/CRIME

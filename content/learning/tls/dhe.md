@@ -6,7 +6,7 @@ layout: learn-single
 vulns:
   - dheatattack
   - logjam
-  - raccoon
+  - racoon
 
 learn_more:
   - text: 'Diffie-Hellman problem'
