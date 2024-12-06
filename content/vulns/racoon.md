@@ -1,10 +1,10 @@
 ---
 title: Racoon
 description: Finding and Exploiting Most-Significant-Bit-Oracles in TLS-DH(E)
-layout: term
+layout: vuln
 
 year: 2020
-class:
+classes:
   - Side-channel attack
 
 learn_more:

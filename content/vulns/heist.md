@@ -1,10 +1,10 @@
 ---
 title: HEIST
 description: HTTP Encrypted Information can be Stolen through TCP-windows
-layout: term
+layout: vuln
 
 year: 2016
-class:
+classes:
   - Compression attack
   - Side-channel attack
 

@@ -1,10 +1,10 @@
 ---
 title: POODLE
 description: Padding Oracle On Downgraded Legacy Encryption
-layout: term
+layout: vuln
 
 year: 2014
-class:
+classes:
   - Downgrade attack
 
 learn_more:

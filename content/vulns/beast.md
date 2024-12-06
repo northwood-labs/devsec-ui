@@ -1,10 +1,10 @@
 ---
 title: BEAST
 description: Browser Exploit Against SSL/TLS
-layout: term
+layout: vuln
 
 year: 2011
-class:
+classes:
   - Data leakage
 
 learn_more:

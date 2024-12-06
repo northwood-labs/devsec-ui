@@ -1,10 +1,10 @@
 ---
 title: Cloudbleed
-description: '@TODO'
-layout: term
+description: Vulnerability in Cloudflare’s HTML parser
+layout: vuln
 
 year: 2017
-class:
+classes:
   - Data leakage
 
 learn_more:

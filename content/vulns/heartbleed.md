@@ -1,10 +1,10 @@
 ---
 title: Heartbleed
 description: Vulnerability in OpenSSL’s implementation of the TLS/DTLS heartbeat extension
-layout: term
+layout: vuln
 
 year: 2014
-class:
+classes:
   - Data leakage
 
 learn_more:

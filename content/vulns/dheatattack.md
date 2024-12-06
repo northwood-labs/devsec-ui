@@ -1,12 +1,12 @@
 ---
 title: DHEat Attack
 description: Triggering Diffie-Hellman to eat the CPU
-layout: term
+layout: vuln
 
 year:
   - 2002
-  - 2022 (PoC)
-class:
+  - 2022
+classes:
   - Denial-of-service
 
 learn_more:
@@ -24,6 +24,8 @@ learn_more:
 ## Overview
 
 The [DHEat Attack] is a denial-of-service vulnerability targeting the Diffie-Hellman key exchange (DHE) algorithm, exploiting its CPU-intensive operations to overload servers using protocols like TLS, SSH, IPsec, and OpenVPN.
+
+While the bug was identified in 2002, a proof-of-concept was created in 2022.
 
 It impacts systems with DHE enabled for backward compatibility or forward secrecy. Its unauthenticated, low-cost exploitability make this a notable vulnerability. While the protocol flaw is unfixable, mitigation includes disabling DHE in favor of ECDHE, applying rate-limiting techniques, and updating server configurations.
 

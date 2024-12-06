@@ -1,10 +1,10 @@
 ---
 title: Logjam
-description:
-layout: term
+description: Vulnerability with Diffie-Hellman and export-grade cryptography
+layout: vuln
 
 year: 2015
-class:
+classes:
   - Downgrade attack
   - Brute force against export-grade encryption
 
@@ -15,13 +15,13 @@ learn_more:
   - text: 'NSA in P/poly: The Power of Precomputation'
     url: https://scottaaronson.blog/?p=2293
 
-  - text: 'CVE-2015-4000'
-    url: https://nvd.nist.gov/vuln/detail/CVE-2015-4000
-    source: NIST
-
   - text: 'Logjam: the latest TLS vulnerability explained'
     url: https://blog.cloudflare.com/logjam-the-latest-tls-vulnerability-explained/
     source: Cloudflare
+
+  - text: 'CVE-2015-4000'
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-4000
+    source: NIST
 
 ---
 

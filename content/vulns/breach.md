@@ -1,10 +1,10 @@
 ---
 title: BREACH
 description: Browser Reconnaissance and Exfiltration via Adaptive Compression of Hypertext
-layout: term
+layout: vuln
 
 year: 2013
-class:
+classes:
   - Compression attack
 
 learn_more:

@@ -1,10 +1,10 @@
 ---
 title: CRIME
 description: Compression Ratio Info-leak Made Easy
-layout: term
+layout: vuln
 
 year: 2012
-class:
+classes:
   - Compression attack
 
 learn_more:

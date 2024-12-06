@@ -1,10 +1,10 @@
 ---
 title: FREAK
 description: Factoring RSA Export Keys
-layout: term
+layout: vuln
 
 year: 2015
-class:
+classes:
   - Downgrade attack
   - Brute force against export-grade encryption
 

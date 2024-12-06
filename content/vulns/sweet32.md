@@ -1,10 +1,10 @@
 ---
 title: Sweet32
 description: Birthday attacks on 64-bit block ciphers in TLS and OpenVPN
-layout: term
+layout: vuln
 
 year: 2016
-class:
+classes:
   - Brute force against export-grade encryption
 
 learn_more:

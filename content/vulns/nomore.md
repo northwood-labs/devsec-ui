@@ -1,10 +1,10 @@
 ---
 title: RC4 NOMORE
 description: Numerous Occurrence MOnitoring and Recovery Exploit
-layout: term
+layout: vuln
 
 year: 2015
-class:
+classes:
   - Bit-flipping
 
 learn_more:

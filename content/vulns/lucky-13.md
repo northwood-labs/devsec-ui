@@ -1,10 +1,10 @@
 ---
 title: Lucky 13
-description: 5 bytes of TLS header plus 8 bytes of TLS sequence number makes this attack possible.
-layout: term
+description: 5 bytes of TLS header plus 8 bytes of TLS sequence number makes this attack possible
+layout: vuln
 
 year: 2013
-class:
+classes:
   - Side-channel attack
 
 learn_more:

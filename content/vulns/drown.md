@@ -1,10 +1,10 @@
 ---
 title: DROWN
 description: Decrypting RSA with Obsolete and Weakened eNcryption
-layout: term
+layout: vuln
 
 year: 2016
-class:
+classes:
   - Downgrade attack
   - Brute force against export-grade encryption
 

@@ -46,10 +46,5 @@ If any one part of a cipher suite has an issue, it can compromise the integrity 
 
 Security vulnerabilities can impact _classes_ of cipher suites.
 
-[depr-sslv2]: https://datatracker.ietf.org/doc/html/rfc6176
-[depr-sslv3]: https://datatracker.ietf.org/doc/html/rfc7568
-[SSLv3]: https://datatracker.ietf.org/doc/html/rfc6101
-[TLS 1.0]: https://datatracker.ietf.org/doc/html/rfc2246
-[TLS 1.1]: https://datatracker.ietf.org/doc/html/rfc4346
 [TLS 1.2]: https://datatracker.ietf.org/doc/html/rfc5246
 [TLS 1.3]: https://datatracker.ietf.org/doc/html/rfc8446

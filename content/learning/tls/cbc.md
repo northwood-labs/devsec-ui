@@ -16,4 +16,4 @@ The [CBC] encryption algorithm suffers from a handful of vulnerabilites, namely 
 
 Any cipher suite with `CBC` in the name should be avoided.
 
-[CBC]: https://en.wikipedia.org/w/index.php?title=Block_cipher_mode_of_operation#CBC
+[CBC]: https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)

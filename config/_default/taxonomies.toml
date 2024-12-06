@@ -1,3 +1,8 @@
-class = 'class'
+class = 'classes'
 vuln = 'vulns'
-year = 'year'
+year = 'years'
+
+disableKinds = [
+  'taxonomy',
+  'term',
+]
