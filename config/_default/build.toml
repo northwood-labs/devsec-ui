@@ -1,5 +1,7 @@
-# https://gohugo.io/getting-started/configuration/#configure-build
+# https://gohugo.io/getting-started/configuration-build/
 
 noJSConfigInAssets   = false
 useResourceCacheWhen = 'fallback'
-writeStats           = true
+
+[build.buildStats]
+  enable = true

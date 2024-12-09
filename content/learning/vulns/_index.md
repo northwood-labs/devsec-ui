@@ -1,6 +1,6 @@
 ---
-title: Vulnerabilities
-description: Known security vulnerabilities.
+title: TLS Vulnerabilities
+description: Known security vulnerabilities in TLS
 layout: list
 ---
 

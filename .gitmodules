@@ -1,3 +1,3 @@
 [submodule "themes/dst2024"]
-	path = themes/dst2024
-	url = git@github.com:northwood-labs/hugo-dst2024.git
+    path = themes/dst2024
+    url = git@github.com:northwood-labs/hugo-dst2024.git

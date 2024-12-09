@@ -1,23 +1,61 @@
 defaultMarkdownHandler = "goldmark"
 
 [goldmark]
+  duplicateResourceFiles = false
+
   [goldmark.extensions]
-  definitionList = true
-  footnote       = true
-  linkify        = true
-  strikethrough  = true
-  table          = true
-  taskList       = true
-  typographer    = true
+  definitionList  = true
+  footnote        = true
+  linkify         = true
+  linkifyProtocol = "https"
+  strikethrough   = true
+  table           = true
+  taskList        = true
+
+    [goldmark.extensions.cjk]
+    enable = false
+
+    [goldmark.extensions.typographer]
+    apostrophe = '&rsquo;'
+    disable = false
+    ellipsis = '&hellip;'
+    emDash = '&mdash;'
+    enDash = '&ndash;'
+    leftAngleQuote = '&laquo;'
+    leftDoubleQuote = '&ldquo;'
+    leftSingleQuote = '&lsquo;'
+    rightAngleQuote = '&raquo;'
+    rightDoubleQuote = '&rdquo;'
+    rightSingleQuote = '&rsquo;'
+
+    [goldmark.extensions.extras]
+      [goldmark.extensions.extras.delete]
+      enable = true
+
+      [goldmark.extensions.extras.insert]
+      enable = true
+
+      [goldmark.extensions.extras.mark]
+      enable = true
+
+      [goldmark.extensions.extras.subscript]
+      enable = true
+
+      [goldmark.extensions.extras.superscript]
+      enable = true
+
+    [goldmark.extensions.passthrough]
+    enable = false
 
   [goldmark.parser]
-  attribute     = true
-  autoHeadingID = true
+  attribute         = true
+  autoHeadingID     = true
+  autoHeadingIDType = "github"
 
   [goldmark.renderer]
   hardWraps = false
   unsafe    = true
-  xHTML     = false
+  xhtml     = false
 
 [highlight]
 codeFences         = true

@@ -28,4 +28,4 @@ We believe that all of this can be made better, and we intend to try.
 
 This site is an open-source collection of tools that makes it easy to scan and identify potentially-insecure website configurations.
 
-Get the [source](#) and use it under the terms of the [Apache 2.0 license](https://spdx.org/licenses/Apache-2.0.html).
+Get the source and use it under the terms of the [Apache 2.0 license](https://spdx.org/licenses/Apache-2.0.html).

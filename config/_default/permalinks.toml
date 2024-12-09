@@ -1,2 +1,3 @@
-post     = "/:title/"
-archives = "/"
+classes = 'learning/classes/:slug/'
+vulns   = 'learning/vulns/:slug/'
+years   = 'learning/years/:slug/'

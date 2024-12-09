@@ -1,5 +1,5 @@
 ---
-title: Racoon
+title: Raccoon
 description: Finding and Exploiting Most-Significant-Bit-Oracles in TLS-DH(E)
 layout: vuln
 
@@ -27,7 +27,7 @@ learn_more:
 
 ## Overview
 
-The [Racoon Attack] is a timing vulnerability in TLS that allows attackers to decrypt sensitive communications under specific conditions. The attack exploits a side-channel in the Diffie-Hellman key exchange, relying on precise timing measurements and server configuration to break the encryption.
+The [Raccoon Attack] is a timing vulnerability in TLS that allows attackers to decrypt sensitive communications under specific conditions. The attack exploits a side-channel in the Diffie-Hellman key exchange, relying on precise timing measurements and server configuration to break the encryption.
 
 While the attack is complex and requires specific circumstances, it highlights the importance of secure server configurations and the potential impact of timing vulnerabilities on TLS security.
 
@@ -38,4 +38,4 @@ While the attack is complex and requires specific circumstances, it highlights t
 | Vulnerability discovered | {{% param-year %}}  |
 | Vulnerability class      | {{% param-class %}} |
 
-[Racoon Attack]: https://raccoon-attack.com
+[Raccoon Attack]: https://raccoon-attack.com

@@ -9,8 +9,8 @@ disableXML   = false
 minifyOutput = true
 
 [tdewolff]
-
   [tdewolff.css]
+  inline    = false
   keepCSS2  = true
   precision = 0
 
@@ -21,18 +21,22 @@ minifyOutput = true
   keepDocumentTags        = true
   keepEndTags             = false
   keepQuotes              = false
+  keepSpecialComments     = false
   keepWhitespace          = false
 
   [tdewolff.js]
   keepVarNames = false
   precision    = 0
+  version      = 2022
 
   [tdewolff.json]
   keepNumbers = false
   precision   = 0
 
   [tdewolff.svg]
-  precision = 0
+  inline       = true
+  keepComments = false
+  precision    = 0
 
   [tdewolff.xml]
   keepWhitespace = false

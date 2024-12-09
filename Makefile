@@ -186,7 +186,14 @@ tag:
 
 .PHONY: clean
 ## clean: [clean]* Run standard cleanup tasks.
-clean: clean-ds clean-bench clean-tests
+clean: clean-ds clean-bench clean-tests clean-hugo
+
+.PHONY: clean-hugo
+## clean-hugo: [clean] Cleanup cached Hugo assets.
+clean-hugo:
+	@ $(HEADER) "=====> Cleaning Hugo assets..."
+	rm -Rf dist/ public/
+	hugo mod clean --all
 
 .PHONY: lint
 ## lint: [lint]* Run linting tasks.
