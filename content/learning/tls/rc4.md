@@ -32,17 +32,18 @@ Any cipher suite with `RC4` in the name should be avoided.
 
 ## Information
 
-| Field        | Value                    |
-|--------------|--------------------------|
-| Invented     | 1987                     |
-| Cracked      | 2015                     |
-| Ephemeral    | _No_                     |
-| Related tech | [WEP], [WPA], [WPA-TKIP] |
+| Field        | Value                           |
+|--------------|---------------------------------|
+| Invented     | 1987                            |
+| Cracked      | 2015                            |
+| Ephemeral    | _No_                            |
+| Related tech | [RSA], [WEP], [WPA], [WPA-TKIP] |
 
 [DigiCert]: https://www.digicert.com/blog/major-browsers-announce-rc4-deprecation
 [Qualys]: https://blog.qualys.com/product-tech/2013/03/19/rc4-in-tls-is-broken-now-what
 [RC4]: https://en.wikipedia.org/wiki/RC4
 [RFC-7465]: https://datatracker.ietf.org/doc/html/rfc7465
+[RSA]: https://www.rsa.com
 [WEP]: https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy
-[WPA]: https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access
 [WPA-TKIP]: https://en.wikipedia.org/wiki/Temporal_Key_Integrity_Protocol
+[WPA]: https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access

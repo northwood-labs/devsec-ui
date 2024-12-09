@@ -16,6 +16,15 @@ It was [cracked in 1997][cracked], and was [removed from U.S. NIST standards (FI
 
 Any cipher suite with `DES` in the name should be avoided.
 
+## Information
+
+| Field        | Value     |
+|--------------|-----------|
+| Invented     | 1972      |
+| Cracked      | 1997      |
+| Ephemeral    | _No_      |
+| Related tech | [FIPS-46] |
+
 [cracked]: https://web.archive.org/web/20170507231657/https://w2.eff.org/Privacy/Crypto/Crypto_misc/DESCracker/HTML/19980716_eff_des_faq.html
 [DES]: https://en.wikipedia.org/wiki/Data_Encryption_Standard
 [FIPS-46]: https://csrc.nist.gov/pubs/fips/46/final
