@@ -1,7 +1,9 @@
 ---
 title: Rivest Cipher 2 (RC2)
-description: Vulnerable key exchange
+description: Vulnerable encryption algorithm
 layout: learn-single
+
+tls_part: encryption-algo
 
 learn_more:
   - text: 'A Description of the RC2(r) Encryption Algorithm'
@@ -20,9 +22,9 @@ Any cipher suite with `RC2` in the name should be avoided.
 
 | Field        | Value                      |
 |--------------|----------------------------|
+| Kind         | Encryption algorithm       |
 | Invented     | 1987                       |
 | Cracked      | 1997                       |
-| Ephemeral    | _No_                       |
 | Related tech | [RSA], Comparable to [DES] |
 
 [DES]: https://web.archive.org/web/20180308044140/http://security.nknu.edu.tw/crypto/faq/html/3-6-2.html

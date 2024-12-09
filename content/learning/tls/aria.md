@@ -1,7 +1,10 @@
 ---
 title: ARIA
-description: Secure key exchange (non-standard)
+description: Secure encryption algorithm (non-standard)
 layout: learn-single
+
+tls_part: encryption-algo
+
 ---
 
 ## Summary
@@ -12,11 +15,11 @@ It is derived from [AES]({{% relref "AES" %}}), and the [source code of its refe
 
 ## Information
 
-| Field     | Value |
-|-----------|-------|
-| Invented  | 2003  |
-| Cracked   | -     |
-| Ephemeral | _Yes_ |
+| Field    | Value                |
+|----------|----------------------|
+| Kind     | Encryption algorithm |
+| Invented | 2003                 |
+| Cracked  | -                    |
 
 [ARIA]: https://en.wikipedia.org/wiki/ARIA_(cipher)
 [RFC6209]: https://datatracker.ietf.org/doc/html/rfc6209

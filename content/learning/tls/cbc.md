@@ -1,7 +1,9 @@
 ---
-title: Cipher Block Chaining
-description: Vulnerable key exchange
+title: Cipher Block Chaining (CBC)
+description: Vulnerable encryption algorithm
 layout: learn-single
+
+tls_part: encryption-algo
 
 vulns:
   - beast
@@ -18,10 +20,10 @@ Any cipher suite with `CBC` in the name should be avoided.
 
 ## Information
 
-| Field     | Value |
-|-----------|-------|
-| Invented  | 1976  |
-| Cracked   | 2011  |
-| Ephemeral | _No_  |
+| Field    | Value                |
+|----------|----------------------|
+| Kind     | Encryption algorithm |
+| Invented | 1976                 |
+| Cracked  | 2011                 |
 
 [CBC]: https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)

@@ -1,7 +1,9 @@
 ---
 title: Triple Data Encryption Standard (3DES)
-description: Vulnerable key exchange
+description: Vulnerable encryption algorithm
 layout: learn-single
+
+tls_part: encryption-algo
 
 vulns:
   - lucky-13
@@ -26,12 +28,12 @@ The best way to avoid vulnerabilities is to _only_ allow TLS 1.2 (with recommend
 
 ## Information
 
-| Field        | Value |
-|--------------|-------|
-| Invented     | 1981  |
-| Cracked      | 2016  |
-| Ephemeral    | _No_  |
-| Related tech | [EMV] |
+| Field        | Value                |
+|--------------|----------------------|
+| Kind         | Encryption algorithm |
+| Invented     | 1981                 |
+| Cracked      | 2016                 |
+| Related tech | [EMV]                |
 
 [EMV]: https://en.wikipedia.org/wiki/EMV
 [Triple-DES]: https://en.wikipedia.org/wiki/Triple_DES

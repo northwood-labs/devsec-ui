@@ -1,7 +1,9 @@
 ---
 title: Rivest Cipher 4 (RC4)
-description: Vulnerable key exchange
+description: Vulnerable encryption algorithm
 layout: learn-single
+
+tls_part: encryption-algo
 
 vulns:
   - NOMORE
@@ -34,9 +36,9 @@ Any cipher suite with `RC4` in the name should be avoided.
 
 | Field        | Value                           |
 |--------------|---------------------------------|
+| Kind         | Encryption algorithm            |
 | Invented     | 1987                            |
 | Cracked      | 2015                            |
-| Ephemeral    | _No_                            |
 | Related tech | [RSA], [WEP], [WPA], [WPA-TKIP] |
 
 [DigiCert]: https://www.digicert.com/blog/major-browsers-announce-rc4-deprecation
