@@ -3,7 +3,7 @@
 
 continue_on_error: false
 doublestar: true
-# exclude: []
+exclude: ["themes/dst2024/pnpm-lock.yaml"]
 # extensions: []
 gitignore_excludes: true
 # include: []
