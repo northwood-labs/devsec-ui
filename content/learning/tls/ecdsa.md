@@ -11,6 +11,8 @@ tls_part: auth-sig
 
 [ECDSA] is a digital signature algorithm using elliptic curve cryptography, offering a more secure alternative to traditional [DSA]({{% relref "DSS" %}}). It involves key generation, signature creation, and verification, with a focus on the importance of randomness in the signing process. While ECDSA offers security advantages, vulnerabilities in implementation, such as static random number generation, have been exploited in real-world attacks.
 
+@TODO
+
 ## Information
 
 | Field        | Value                  |

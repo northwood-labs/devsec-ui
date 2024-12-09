@@ -5,13 +5,8 @@ ECDH
 ECDHE
 KRB5
 PSK
-RSA Kex
 SRP
 GOSTR341112
-
-# Sig
-ECDSA
-RSA Auth
 
 # Enc
 CCM
