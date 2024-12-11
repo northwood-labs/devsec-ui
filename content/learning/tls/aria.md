@@ -1,6 +1,6 @@
 ---
 title: ARIA
-description: Secure encryption algorithm (non-standard)
+description: ✅ Secure encryption algorithm (non-standard)
 layout: learn-single
 
 tls_part: encryption-algo

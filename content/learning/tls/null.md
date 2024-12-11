@@ -1,6 +1,6 @@
 ---
 title: 'NULL algorithm'
-# description: Vulnerable key exchange
+# description: ❌ Vulnerable key exchange
 layout: learn-single
 ---
 

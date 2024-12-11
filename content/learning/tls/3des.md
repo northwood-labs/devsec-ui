@@ -1,6 +1,6 @@
 ---
 title: Triple Data Encryption Standard (3DES)
-description: Vulnerable encryption algorithm
+description: ❌ Vulnerable encryption algorithm
 layout: learn-single
 
 tls_part: encryption-algo

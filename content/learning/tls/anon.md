@@ -1,6 +1,6 @@
 ---
 title: Anonymous Key Exchanges (anon)
-description: Vulnerable key exchange
+description: ❌ Vulnerable key exchange
 layout: learn-single
 
 tls_part: key-exchange

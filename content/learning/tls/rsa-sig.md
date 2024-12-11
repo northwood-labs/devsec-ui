@@ -1,6 +1,6 @@
 ---
 title: RSA (Authentication Signing)
-description: Secure authentication signing
+description: ✅ Secure authentication signing
 layout: learn-single
 
 tls_part: auth-sig

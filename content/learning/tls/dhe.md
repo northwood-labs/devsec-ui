@@ -1,6 +1,6 @@
 ---
 title: Diffie-Hellman, Ephemeral (DHE)
-description: Vulnerable key exchange
+description: ❌ Vulnerable key exchange
 layout: learn-single
 
 tls_part: key-exchange
@@ -39,7 +39,7 @@ The newer [elliptic-curve][ECC] (ECDHE) key exchange algorithms are more secure 
 | Ephemeral    | _Yes_        |
 | Related tech | [PGP]        |
 
-¹ While not strictly "cracked", research has shown that the hacking agencies of nation-states can afford the compute resources required to crack these types of encrypted messages — up through 1024-bit keys. 2048-bit keys are, at present, still strong enough to make cracking mathematically impossible (pre-<a href="https://en.wikipedia.org/wiki/Quantum_computing">Quantum computing</a>)
+¹ While not strictly "cracked", research has shown that the hacking agencies of nation-states can afford the compute resources required to crack these types of encrypted messages — up through 1024-bit keys. 2048-bit keys are, at present, still strong enough to make cracking mathematically impossible (pre-<a href="https://en.wikipedia.org/wiki/Quantum_computing">Quantum computing</a>).
 
 [Diffie-Hellman]: https://en.wikipedia.org/wiki/Diffie–Hellman_key_exchange
 [ECC]: https://en.wikipedia.org/wiki/Elliptic-curve_cryptography

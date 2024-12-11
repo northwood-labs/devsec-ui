@@ -1,6 +1,6 @@
 ---
 title: Advanced Encryption Standard (AES)
-description: Secure encryption algorithm
+description: ✅ Secure encryption algorithm
 layout: learn-single
 
 tls_part: encryption-algo

@@ -1,6 +1,6 @@
 ---
 title: Export-grade encryption (EXPORT)
-description: Vulnerable encryption algorithms
+description: ❌ Vulnerable encryption algorithms
 layout: learn-single
 
 tls_part: encryption-algo

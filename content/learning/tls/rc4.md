@@ -1,6 +1,6 @@
 ---
 title: Rivest Cipher 4 (RC4)
-description: Vulnerable encryption algorithm
+description: ❌ Vulnerable encryption algorithm
 layout: learn-single
 
 tls_part: encryption-algo

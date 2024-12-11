@@ -1,6 +1,6 @@
 ---
 title: Cipher Block Chaining (CBC)
-description: Vulnerable encryption algorithm
+description: ❌ Vulnerable encryption algorithm
 layout: learn-single
 
 tls_part: encryption-algo
