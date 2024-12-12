@@ -6,4 +6,4 @@ layout: list
 
 ## By name
 
-A list of known security vulnerabilities, by name.
+A list of known security vulnerabilities targeting SSL/TLS, by name.

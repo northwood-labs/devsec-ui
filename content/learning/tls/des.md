@@ -20,12 +20,12 @@ Any cipher suite with `DES` in the name should be avoided.
 
 ## Information
 
-| Field        | Value                |
-|--------------|----------------------|
-| Kind         | Encryption algorithm |
-| Invented     | 1972                 |
-| Cracked      | 1997                 |
-| Related tech | [FIPS-46]            |
+| Field        | Value              |
+|--------------|--------------------|
+| Kind         | {{% param-kind %}} |
+| Invented     | 1972               |
+| Cracked      | 1997               |
+| Related tech | [FIPS-46]          |
 
 [cracked]: https://web.archive.org/web/20170507231657/https://w2.eff.org/Privacy/Crypto/Crypto_misc/DESCracker/HTML/19980716_eff_des_faq.html
 [DES]: https://en.wikipedia.org/wiki/Data_Encryption_Standard

@@ -1,12 +1,13 @@
+gost-r
+
 # Kex
-CAMELLIA
-ECCPWD
-ECDH
-ECDHE
-KRB5
-PSK
-SRP
-GOSTR341112
+eccpwd
+ecdh
+ecdhe
+krb5
+psk
+srp
+
 
 # Enc
 CCM

@@ -1,5 +1,5 @@
 ---
-title: GOLDENDOODLE
+title: Zombie POODLE
 description: TLS padding oracle vulnerability against CBC
 layout: vuln
 
@@ -28,9 +28,9 @@ learn_more:
 
 ## Overview
 
-The [GOLDENDOODLE] attack is a type of TLS CBC padding oracle vulnerability (like [POODLE]({{% relref "POODLE" %}})).
+The [Zombie POODLE] attack is a resurrection of the [POODLE]({{% relref "POODLE" %}}) TLS attack. Zombie POODLE exploits server stacks that behave differently when receiving TLS records with valid Message Authentication Code (MAC) but invalid padding. The difference between POODLE TLS and Zombie POODLE is that Zombie POODLE generically refers to the exploitation of various _implementation errors_ which create this valid-MAC/invalid-pad oracle.
 
-GOLDENDOODLE can be used to hijack authenticated TLS sessions if the server reveals the padding validity of application data records in such a way that a Man-in-the-Middle (MITM) attacker can recognize well-formed padding independently of a valid Message Authentication Code (MAC).
+Zombie POODLE can be used to hijack authenticated TLS sessions if the server reveals the padding validity of application data records in such a way that a Man-in-the-Middle (MITM) attacker can recognize well/ill-formed padding independently of a valid/invalid Message Authentication Code (MAC).
 
 The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "recommended-cipher-suites" %}})) and TLS 1.3.
 
@@ -41,4 +41,4 @@ The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recom
 | Vulnerability discovered | {{% param-year %}}  |
 | Vulnerability class      | {{% param-class %}} |
 
-[GOLDENDOODLE]: https://www.tripwire.com/state-of-security/goldendoodle-attack
+[Zombie POODLE]: https://www.tripwire.com/state-of-security/zombie-poodle

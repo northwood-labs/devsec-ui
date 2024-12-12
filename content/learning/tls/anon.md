@@ -20,8 +20,8 @@ Any cipher suite with `anon` in the name should be avoided.
 
 ## Information
 
-| Field | Value                |
-|-------|----------------------|
-| Kind  | Encryption algorithm |
+| Field | Value              |
+|-------|--------------------|
+| Kind  | {{% param-kind %}} |
 
 [MITM]: https://en.wikipedia.org/wiki/Man-in-the-middle_attack

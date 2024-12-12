@@ -31,13 +31,13 @@ The newer [elliptic-curve][ECC] (ECDHE) key exchange algorithms are more secure 
 
 ## Information
 
-| Field        | Value        |
-|--------------|--------------|
-| Kind         | Key exchange |
-| Invented     | 1976         |
-| Cracked¹     | 2015         |
-| Ephemeral    | _Yes_        |
-| Related tech | [PGP]        |
+| Field        | Value              |
+|--------------|--------------------|
+| Kind         | {{% param-kind %}} |
+| Invented     | 1976               |
+| Cracked¹     | 2015               |
+| Ephemeral    | _Yes_              |
+| Related tech | [PGP]              |
 
 ¹ While not strictly "cracked", research has shown that the hacking agencies of nation-states can afford the compute resources required to crack these types of encrypted messages — up through 1024-bit keys. 2048-bit keys are, at present, still strong enough to make cracking mathematically impossible (pre-<a href="https://en.wikipedia.org/wiki/Quantum_computing">Quantum computing</a>).
 

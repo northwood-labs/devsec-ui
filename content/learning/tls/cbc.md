@@ -7,8 +7,10 @@ tls_part: encryption-algo
 
 vulns:
   - beast
+  - goldendoodle
   - lucky-13
   - poodle
+  - zombie-poodle
 
 ---
 
@@ -20,10 +22,10 @@ Any cipher suite with `CBC` in the name should be avoided.
 
 ## Information
 
-| Field    | Value                |
-|----------|----------------------|
-| Kind     | Encryption algorithm |
-| Invented | 1976                 |
-| Cracked  | 2011                 |
+| Field    | Value              |
+|----------|--------------------|
+| Kind     | {{% param-kind %}} |
+| Invented | 1976               |
+| Cracked  | 2011               |
 
 [CBC]: https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)

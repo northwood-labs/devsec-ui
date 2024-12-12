@@ -36,11 +36,11 @@ Well-known cryptographers (including [Bruce Schneier]) have expressed doubts abo
 
 ## Information
 
-| Field      | Value                  |
-|------------|------------------------|
-| Kind       | Authentication signing |
-| Proposed   | 1992                   |
-| Deprecated | -                      |
+| Field      | Value              |
+|------------|--------------------|
+| Kind       | {{% param-kind %}} |
+| Proposed   | 1992               |
+| Deprecated | -                  |
 
 [backdoors]: https://www.theguardian.com/us-news/2015/feb/23/nsa-director-defends-backdoors-into-technology-companies
 [Bruce Schneier]: https://www.schneier.com/blog/archives/2013/09/the_nsa_is_brea.html

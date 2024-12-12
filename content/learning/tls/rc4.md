@@ -36,7 +36,7 @@ Any cipher suite with `RC4` in the name should be avoided.
 
 | Field        | Value                           |
 |--------------|---------------------------------|
-| Kind         | Encryption algorithm            |
+| Kind         | {{% param-kind %}}              |
 | Invented     | 1987                            |
 | Cracked      | 2015                            |
 | Related tech | [RSA], [WEP], [WPA], [WPA-TKIP] |

@@ -35,7 +35,7 @@ The [FREAK] attack is known as a _downgrade attack_, which targets handshake mes
 
 Researchers uncovered that many TLS implementations allow authentication message skipping, making them susceptible to these attacks, especially when using compromised code bases or outdated OpenSSL versions. To mitigate risks, organizations should conduct SKIP-TLS risk audits, patch web browsers, and avoid sensitive activities on unsecured networks.
 
-The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "tls" %}})) and TLS 1.3.
+The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "recommended-cipher-suites" %}})) and TLS 1.3.
 
 ![XKCD: CIA comic](https://imgs.xkcd.com/comics/cia.png)
 

@@ -15,11 +15,11 @@ It is derived from [AES]({{% relref "AES" %}}), and the [source code of its refe
 
 ## Information
 
-| Field    | Value                |
-|----------|----------------------|
-| Kind     | Encryption algorithm |
-| Invented | 2003                 |
-| Cracked  | -                    |
+| Field    | Value              |
+|----------|--------------------|
+| Kind     | {{% param-kind %}} |
+| Invented | 2003               |
+| Cracked  | -                  |
 
 [ARIA]: https://en.wikipedia.org/wiki/ARIA_(cipher)
 [RFC6209]: https://datatracker.ietf.org/doc/html/rfc6209

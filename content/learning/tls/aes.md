@@ -15,7 +15,7 @@ The [Advanced Encryption Standard][AES] (AES), also known as _Rijndael_, is a sy
 
 | Field        | Value                                                                                           |
 |--------------|-------------------------------------------------------------------------------------------------|
-| Kind         | Encryption algorithm                                                                            |
+| Kind         | {{% param-kind %}}                                                                              |
 | Invented     | 1998                                                                                            |
 | Cracked      | -                                                                                               |
 | Related tech | [FIPS-197], [ISO 18033-3], [FileVault 2], [Linux Crypto], [Libsodium], [VeraCrypt], [BitLocker] |

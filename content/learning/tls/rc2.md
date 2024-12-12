@@ -22,7 +22,7 @@ Any cipher suite with `RC2` in the name should be avoided.
 
 | Field        | Value                      |
 |--------------|----------------------------|
-| Kind         | Encryption algorithm       |
+| Kind         | {{% param-kind %}}         |
 | Invented     | 1987                       |
 | Cracked      | 1997                       |
 | Related tech | [RSA], Comparable to [DES] |

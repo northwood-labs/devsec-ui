@@ -21,8 +21,8 @@ Any cipher suite with `EXPORT` in the name should be avoided.
 
 ## Information
 
-| Field | Value                |
-|-------|----------------------|
-| Kind  | Encryption algorithm |
+| Field | Value              |
+|-------|--------------------|
+| Kind  | {{% param-kind %}} |
 
 [EXPORT]: https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States

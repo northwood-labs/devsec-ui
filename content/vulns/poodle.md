@@ -36,7 +36,7 @@ The [POODLE] attack is a security vulnerability in the obsolete SSL 3.0 protocol
 
 This occurs through weaknesses in SSL 3.0’s block cipher padding, particularly in CBC mode, which can be exploited via a padding oracle attack when a man-in-the-middle attacker manipulates network transmissions.
 
-The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "tls" %}})) and TLS 1.3.
+The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "recommended-cipher-suites" %}})) and TLS 1.3.
 
 ## Information
 

@@ -3,6 +3,9 @@ title: DHEat Attack
 description: Triggering Diffie-Hellman to eat the CPU
 layout: vuln
 
+aliases:
+  - /learning/vulns/dheatattack
+
 year:
   - 2002
   - 2022
@@ -29,7 +32,7 @@ While the bug was identified in 2002, a proof-of-concept was created in 2022.
 
 It impacts systems with DHE enabled for backward compatibility or forward secrecy. Its unauthenticated, low-cost exploitability make this a notable vulnerability. While the protocol flaw is unfixable, mitigation includes disabling DHE in favor of ECDHE, applying rate-limiting techniques, and updating server configurations.
 
-The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "tls" %}})) and TLS 1.3.
+The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "recommended-cipher-suites" %}})) and TLS 1.3.
 
 ## Information
 

@@ -28,12 +28,12 @@ The best way to avoid vulnerabilities is to _only_ allow TLS 1.2 (with recommend
 
 ## Information
 
-| Field        | Value                |
-|--------------|----------------------|
-| Kind         | Encryption algorithm |
-| Invented     | 1981                 |
-| Cracked      | 2016                 |
-| Related tech | [EMV]                |
+| Field        | Value              |
+|--------------|--------------------|
+| Kind         | {{% param-kind %}} |
+| Invented     | 1981               |
+| Cracked      | 2016               |
+| Related tech | [EMV]              |
 
 [EMV]: https://en.wikipedia.org/wiki/EMV
 [Triple-DES]: https://en.wikipedia.org/wiki/Triple_DES

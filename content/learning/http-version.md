@@ -42,6 +42,38 @@ docs:
   nginx:
     docs: "https://www.slingacademy.com/article/enable-http2-http3-nginx/"
 
+learn_more:
+  - text: 'HTTP Working Group'
+    url: https://httpwg.org
+    source: Official
+
+  - text: 'HTTP/2 vs. HTTP/1.1: How do they affect web performance?'
+    url: https://www.cloudflare.com/learning/performance/http2-vs-http1.1/
+    source: Cloudflare
+
+  - text: 'What is HTTP/3?'
+    url: https://www.cloudflare.com/learning/performance/what-is-http3/
+    source: Cloudflare
+
+  - text: 'HTTP/2'
+    url: https://en.wikipedia.org/wiki/HTTP/2
+    source: Wikipedia
+
+  - text: 'HTTP/3'
+    url: https://en.wikipedia.org/wiki/HTTP/3
+    source: Wikipedia
+
+  - text: 'Evolution of HTTP'
+    url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Evolution_of_HTTP
+    source: Mozilla Developer Network
+
+  - text: 'Comparison of the usage statistics of HTTP/2 vs. HTTP/3 for websites'
+    url: https://w3techs.com/technologies/comparison/ce-http2,ce-http3
+    source: W3Techs
+
+  - text: 'HTTP/2 and HTTP/3 explained'
+    url: https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained/
+
 ---
 
 ## Summary
@@ -61,25 +93,6 @@ Nobody is left out, and modern software is able to take advantage of modern conn
 * [HTTP/3] became available in 2022 (roughly {{% years-ago 2022 %}} years ago). Rather than being built atop TCP like previous versions of HTTP, HTTP/3 is built atop the [QUIC] protocol, which enables better performance by reducing the back-and-forth that happens when connecting to a web server.
 
     According to [w3techs.com](https://w3techs.com/technologies/comparison/ce-http2,ce-http3) (in research [cited by Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Evolution_of_HTTP#http2_–_a_protocol_for_greater_performance)), approximately 37% of the top million websites support HTTP/3, and approximately 32% of **all** websites have added support.
-
-## Learn more about HTTP…
-
-* [HTTP Working Group](https://httpwg.org) (Official)
-* [HTTP/2 vs. HTTP/1.1: How do they affect web performance?](https://www.cloudflare.com/learning/performance/http2-vs-http1.1/) (Cloudflare)
-* [What is HTTP/3?](https://www.cloudflare.com/learning/performance/what-is-http3/) (Cloudflare)
-* [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) (Wikipedia)
-* [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) (Wikipedia)
-* [Evolution of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Evolution_of_HTTP) (Mozilla Developer Network)
-* [Comparison of the usage statistics of HTTP/2 vs. HTTP/3 for websites](https://w3techs.com/technologies/comparison/ce-http2,ce-http3) (W3Techs)
-* [HTTP/2 and HTTP/3 explained](https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained/)
-
-## Learn more about QUIC…
-
-* [QUIC Working Group](https://quicwg.org) (Official)
-* [QUIC, a multiplexed transport over UDP](https://www.chromium.org/quic/) (Chromium)
-* [Introducing QUIC support for HTTPS load balancing](https://cloud.google.com/blog/products/gcp/introducing-quic-support-https-load-balancing) (Google Cloud Platform)
-* [The Road to QUIC](https://blog.cloudflare.com/the-road-to-quic/) (Cloudflare)
-* [QUIC](https://en.wikipedia.org/wiki/QUIC) (Wikipedia)
 
 [HTTP/1.0]: https://datatracker.ietf.org/doc/html/rfc1945
 [HTTP/1.1]: https://datatracker.ietf.org/doc/html/rfc9112

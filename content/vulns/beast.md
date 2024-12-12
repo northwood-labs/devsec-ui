@@ -33,7 +33,7 @@ learn_more:
 
 The [BEAST] attack targets a security vulnerability in SSL 3.0 and TLS 1.0 protocols, focusing on their use of CBC (Cipher Block Chaining) encryption. It details an attack capable of decrypting encrypted HTTPS requests and obtaining sensitive information such as authentication tokens or cookies. This attack exploits the predictable chaining of initialization vectors (IVs) in CBC mode, allowing an attacker to recover plaintext efficiently by manipulating and observing ciphertext blocks.
 
-The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "tls" %}})) and TLS 1.3.
+The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "recommended-cipher-suites" %}})) and TLS 1.3.
 
 ## Information
 

@@ -17,12 +17,12 @@ Any cipher suite with `DSS` in the name should be avoided. `ECDSA` signing shoul
 
 ## Information
 
-| Field        | Value                  |
-|--------------|------------------------|
-| Kind         | Authentication signing |
-| Invented     | 1991                   |
-| Deprecated   | 2023                   |
-| Related tech | [FIPS-186]             |
+| Field        | Value              |
+|--------------|--------------------|
+| Kind         | {{% param-kind %}} |
+| Invented     | 1991               |
+| Deprecated   | 2023               |
+| Related tech | [FIPS-186]         |
 
 [announced]: https://www.nist.gov/news-events/news/2023/02/nist-revises-digital-signature-standard-dss-and-publishes-guideline
 [DSA]: https://en.wikipedia.org/wiki/Digital_Signature_Algorithm
