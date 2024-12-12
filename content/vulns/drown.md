@@ -25,7 +25,7 @@ learn_more:
 
 The [DROWN] attack is a vulnerability affecting HTTPS and other services using SSL and TLS, allowing attackers to decrypt sensitive communications. The attack exploits SSLv2, a deprecated protocol, to compromise modern TLS connections, even if SSLv2 is not directly used. Server operators must disable SSLv2 or ensure private keys are not used on any SSLv2-supporting servers to mitigate the risk.
 
-The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with recommended cipher suites) and TLS 1.3.
+The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "tls" %}})) and TLS 1.3.
 
 ## Information
 

@@ -28,6 +28,8 @@ learn_more:
 
 This vulnerability is exacerbated by the widespread use of these ciphers in protocols like TLS and OpenVPN, despite their known weaknesses.
 
+The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "tls" %}})) and TLS 1.3.
+
 ## Information
 
 | Field                    | Value               |

@@ -34,6 +34,8 @@ Despite decades of advancements, a comprehensive analysis revealed its prevalenc
 
 ROBOT demonstrated novel side-channel methods and executed proof-of-concept attacks, such as signing a certificate for Facebook, highlighting widespread implementation gaps. The research underscores the necessity of retiring insecure standards like RSA PKCS #1 v1.5 in favor of robust alternatives and deploying meticulous testing frameworks to prevent similar vulnerabilities in the future.
 
+The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "tls" %}})) and TLS 1.3.
+
 ## Information
 
 | Field                    | Value               |

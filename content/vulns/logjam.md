@@ -31,7 +31,7 @@ The [Logjam] attack exposes critical vulnerabilities in the widely used Diffie-H
 
 Through precomputation techniques, and exploiting reused/standardized or weak parameters, the cost of large-scale attacks is significantly reduced. The findings of the official research report underline the urgency for transitioning to stronger cryptographic methods, like elliptic curve Diffie-Hellman (ECDHE) and/or larger key sizes, to protect against such attacks and ensure better security practices across the internet.
 
-The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with recommended cipher suites) and TLS 1.3.
+The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "tls" %}})) and TLS 1.3.
 
 ## Information
 

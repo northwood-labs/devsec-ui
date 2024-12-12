@@ -66,4 +66,4 @@ targets:
       repository: /tmp/terraform-makefile
       path: updates/go/.golangci.yml
       sync-initial: false
-# goplicate-end:go
+      # goplicate-end:go

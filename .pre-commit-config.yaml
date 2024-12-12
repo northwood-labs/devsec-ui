@@ -106,4 +106,4 @@ repos:
           - --indent=4
           - --case-indent
           - --space-redirects
-# goplicate-end:shell
+        # goplicate-end:shell

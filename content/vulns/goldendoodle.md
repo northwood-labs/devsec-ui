@@ -28,7 +28,7 @@ The [GOLDENDOODLE] attack is a type of TLS CBC padding oracle vulnerability (lik
 
 GOLDENDOODLE can be used to hijack authenticated TLS sessions if the server reveals the padding validity of application data records in such a way that a Man-in-the-Middle (MITM) attacker can recognize well-formed padding independently of a valid Message Authentication Code (MAC).
 
-The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with recommended cipher suites) and TLS 1.3.
+The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "tls" %}})) and TLS 1.3.
 
 ## Information
 

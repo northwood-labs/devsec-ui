@@ -22,7 +22,7 @@ learn_more:
 
 The [Lucky 13] attack exploits a flaw in the TLS and DTLS record protocols, allowing attackers to recover plaintext from encrypted connections. The attacks, which affect all compliant TLS and DTLS implementations using CBC-mode encryption, can be mitigated by switching to AEAD (AES-GCM) ciphersuites.
 
-The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with recommended cipher suites) and TLS 1.3.
+The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "tls" %}})) and TLS 1.3.
 
 ## Information
 

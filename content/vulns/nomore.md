@@ -24,7 +24,7 @@ learn_more:
 
 The [RC4 NOMORE] attack significantly reduces the time required to decrypt sensitive data secured by RC4. The attack exploits statistical biases in the keystream, making it possible to decrypt repeated plaintext-like cookies within 75 hours. While mitigations can slow down attacks, the only effective countermeasure is to stop using RC4 altogether.
 
-The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with recommended cipher suites) and TLS 1.3.
+The best way to avoid this vulnerability is to _only_ allow TLS 1.2 (with [recommended cipher suites]({{% relref "tls" %}})) and TLS 1.3.
 
 ## Information
 
