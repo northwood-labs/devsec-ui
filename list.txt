@@ -1,26 +1,17 @@
-gost-r
-
 # Kex
-eccpwd
-ecdh
-ecdhe
-krb5
-psk
-srp
-
+ecdh.md
+ecdhe.md
 
 # Enc
-CCM
-CHACHA20-POLY1305
-GCM
-IDEA
-KUZNYECHIK
-MAGMA
-SM4
+ccm.md
+chacha20-poly1305.md
+gcm.md
+idea.md
+sm4.md
 
 # Hash
-MD5
-SHA
-SHA256
-SHA384
-SM3
+md5.md
+sha.md
+sha256.md
+sha384.md
+sm3.md
