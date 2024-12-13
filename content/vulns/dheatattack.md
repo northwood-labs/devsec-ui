@@ -9,6 +9,7 @@ aliases:
 year:
   - 2002
   - 2022
+
 classes:
   - Denial-of-service
 

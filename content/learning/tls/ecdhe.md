@@ -1,10 +1,11 @@
 ---
-title: Elliptic Curve Diffie-Hellman (ECDH)
-description: ✅ Secure key exchange
+title: Elliptic Curve Diffie-Hellman, Ephemeral (ECDHE)
+description: ✅ Recommended key exchange
 layout: learn-single
 
 tls_part: key-exchange
 
+learn_more:
 learn_more:
   - text: 'Diffie-Hellman problem'
     url: https://en.wikipedia.org/wiki/Diffie–Hellman_problem
@@ -34,7 +35,7 @@ The [Diffie-Hellman] key exchange is a cryptographic method enabling two parties
 
 This approach is the foundation of all modern-day [public-key cryptography]. It also forms the basis of [Forward secrecy] in TLS connections.
 
-Although it is part of the newer [elliptic-curve][ECC] key exchange algorithms, it is non-ephemeral. As a result, using [ECDHE]({{% relref "ECDHE" %}}) is strongly preferred for TLS.
+This is the recommended [elliptic-curve][ECC] key exchange algorithm for TLS.
 
 ## Concerns
 
@@ -51,7 +52,7 @@ As a result, [Curve25519] and [Curve448] have been developed independently of th
 | Kind      | {{% param-kind %}} |
 | Invented  | 2006               |
 | Cracked   | -                  |
-| Ephemeral | _No_               |
+| Ephemeral | _Yes_              |
 
 [backdoors]: https://www.theguardian.com/us-news/2015/feb/23/nsa-director-defends-backdoors-into-technology-companies
 [Bruce Schneier]: https://www.schneier.com/blog/archives/2013/09/the_nsa_is_brea.html

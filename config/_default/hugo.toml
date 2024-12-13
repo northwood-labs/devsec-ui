@@ -44,7 +44,7 @@ removePathAccents                    = true
 defaultContentLanguage         = "en"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage                 = false
-languageCode                   = "en-us"
+languageCode                   = "en-US"
 timeZone                       = "US/Mountain"
 
 # Other

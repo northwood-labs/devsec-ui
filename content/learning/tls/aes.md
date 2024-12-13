@@ -1,6 +1,6 @@
 ---
 title: Advanced Encryption Standard (AES)
-description: ✅ Secure encryption algorithm
+description: ✅ Recommended encryption algorithm
 layout: learn-single
 
 tls_part: encryption-algo
@@ -10,6 +10,9 @@ tls_part: encryption-algo
 ## Summary
 
 The [Advanced Encryption Standard][AES] (AES), also known as _Rijndael_, is a symmetric-key encryption algorithm used to secure electronic data. It was selected by U.S. NIST as the modern standard for federal cryptography ([FIPS-197]), replacing [DES]({{% relref "DES" %}}). It became an international standard in [ISO 18033-3].
+
+> [!TIP]
+> This is a recommended algorithm.
 
 ## Information
 

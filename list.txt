@@ -1,11 +1,5 @@
-# Kex
-ecdh.md
-ecdhe.md
-
 # Enc
-ccm.md
-chacha20-poly1305.md
-gcm.md
+chacha20.md
 idea.md
 sm4.md
 
@@ -15,3 +9,4 @@ sha.md
 sha256.md
 sha384.md
 sm3.md
+poly1305.md

@@ -1,9 +1,9 @@
 ---
 title: Cipher Block Chaining (CBC)
-description: ❌ Vulnerable encryption algorithm
+description: ❌ Vulnerable mode of operation
 layout: learn-single
 
-tls_part: encryption-algo
+tls_part: mode
 
 vulns:
   - beast
@@ -11,6 +11,11 @@ vulns:
   - lucky-13
   - poodle
   - zombie-poodle
+
+learn_more:
+  - text: 'Block cipher'
+    url: https://en.wikipedia.org/wiki/Block_cipher
+    source: Wikipedia
 
 ---
 

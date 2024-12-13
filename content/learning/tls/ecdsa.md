@@ -1,6 +1,6 @@
 ---
 title: Elliptic Curve Digital Signature Algorithm (ECDSA)
-description: ✅ Secure authentication signing
+description: ✅ Recommended authentication signing
 layout: learn-single
 
 tls_part: auth-sig
