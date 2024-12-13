@@ -1,6 +1,4 @@
 # Enc
-chacha20.md
-idea.md
 sm4.md
 
 # Hash

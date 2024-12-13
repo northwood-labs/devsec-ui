@@ -23,6 +23,8 @@ learn_more:
 
 [CCM] mode is a block cipher mode that combines counter mode for confidentiality with cipher block chaining message authentication code (CBC-MAC) for authentication. It is designed for block ciphers with a 128-bit block length and requires careful nonce selection to avoid security vulnerabilities. CCM mode is used in various standards like IEEE 802.11i, IPsec, and TLS 1.2 for authenticated encryption.
 
+CCM modes of operation are slower than the (preferred) [GCM]({{% relref "GCM" %}}) modes.
+
 ## Information
 
 | Field        | Value                                                                             |
