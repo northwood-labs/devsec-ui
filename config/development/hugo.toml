@@ -1,1 +1,4 @@
-baseURL = "https://devsec.local"
+baseURL = "http://localhost:1313"
+
+[params]
+apiHostname = "http://127.0.0.1:8080"

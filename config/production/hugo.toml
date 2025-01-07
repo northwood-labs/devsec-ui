@@ -1,1 +1,4 @@
 baseURL = "https://devsec.tools"
+
+[params]
+apiHostname = "https://api.devsec.tools"
