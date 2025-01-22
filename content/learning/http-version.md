@@ -6,13 +6,13 @@ layout: learn-single
 good_better_best:
   1good:
     title: OK
-    description: '<span class="ui-badge-success-wrap">HTTP/1.1</span>'
+    description: '<span class="ui-badge-wrap ui-badge-success-wrap">HTTP/1.1</span>'
   2better:
     title: Better
-    description: '<span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-tip-wrap">HTTP/2</span>'
+    description: '<span class="ui-badge-wrap ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-wrap ui-badge-tip-wrap">HTTP/2</span>'
   3best:
     title: Best
-    description: '<span class="ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-tip-wrap">HTTP/2</span> + <span class="ui-badge-indigo-wrap">HTTP/3</span>'
+    description: '<span class="ui-badge-wrap ui-badge-success-wrap">HTTP/1.1</span> + <span class="ui-badge-wrap ui-badge-tip-wrap">HTTP/2</span> + <span class="ui-badge-wrap ui-badge-indigo-wrap">HTTP/3</span>'
 
 docs:
   aws:

@@ -218,6 +218,7 @@ build:
 ## serve: [website] Perform a development build of the website, and run a local web server.
 serve:
 	HUGO_ENV=development hugo serve \
+		--baseURL=http://devsec.local \
 		--buildDrafts \
 		--cleanDestinationDir \
 		--disableFastRender \
@@ -231,6 +232,7 @@ serve:
 		--templateMetricsHints \
 		--watch \
 	;
+#		--appendPort=false \
 
 # Implement make test
 

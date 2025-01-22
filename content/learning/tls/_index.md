@@ -6,13 +6,13 @@ layout: list
 good_better_best:
   1abysmal:
     title: Not secure at all
-    description: '<span class="ui-badge-error-wrap">SSLv2</span> <span class="ui-badge-error-wrap">SSLv3</span>'
+    description: '<span class="ui-badge-wrap ui-badge-error-wrap">SSLv2</span> <span class="ui-badge-wrap ui-badge-error-wrap">SSLv3</span>'
   2better:
     title: Security broken
-    description: '<span class="ui-badge-error-wrap">TLS 1.0</span> <span class="ui-badge-error-wrap">TLS 1.1</span>'
+    description: '<span class="ui-badge-wrap ui-badge-error-wrap">TLS 1.0</span> <span class="ui-badge-wrap ui-badge-error-wrap">TLS 1.1</span>'
   3best:
     title: Safe and secure
-    description: '<span class="ui-badge-success-wrap">TLS 1.2</span>+ <span class="ui-badge-success-wrap">TLS 1.3</span>'
+    description: '<span class="ui-badge-wrap ui-badge-success-wrap">TLS 1.2</span>+ <span class="ui-badge-wrap ui-badge-success-wrap">TLS 1.3</span>'
 
 ---
 
