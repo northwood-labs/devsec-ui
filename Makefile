@@ -140,6 +140,12 @@ license:
 	@ echo "Missing/outdated:"
 	@ - licensei header
 
+.PHONY: links
+## links: [lint]* Checks links to ensure they are not broken.
+links:
+	@ $(HEADER) "=====> Checking links..."
+	@ lychee .
+
 # goplicate-end:linting
 
 # goplicate-start:git
@@ -197,11 +203,12 @@ clean-hugo:
 
 .PHONY: lint
 ## lint: [lint]* Run linting tasks.
-lint: license pre-commit
+lint: pre-commit links
 
 .PHONY: build
 ## build: [website] Perform a production build of the website.
 build:
+	@ $(HEADER) "=====> Performing a production build of the website..."
 	cd themes/dst2024 && npm run build
 	HUGO_ENV=production hugo \
 		--baseURL "https://devsec.tools" \
@@ -217,6 +224,7 @@ build:
 .PHONY: serve
 ## serve: [website] Perform a development build of the website, and run a local web server.
 serve:
+	@ $(HEADER) "=====> Launching a local development server..."
 	HUGO_ENV=development hugo serve \
 		--baseURL=http://devsec.local \
 		--buildDrafts \

@@ -14,4 +14,7 @@
   "prettier.enable": true,
   "prettier.useEditorConfig": true,
   "sarif-viewer.connectToGithubCodeScanning": "off",
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
 }

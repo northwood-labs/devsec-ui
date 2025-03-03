@@ -44,3 +44,4 @@ tfplan
 
 dist/
 public/
+.lycheecache

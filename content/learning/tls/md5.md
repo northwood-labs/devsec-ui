@@ -22,7 +22,7 @@ learn_more:
     source: Carnegie Mellon University
 
   - text: 'Single-block collision for MD5'
-    url: https://marc-stevens.nl/research/md5-1block-collision/
+    url: https://web.archive.org/web/20250202115901/https://marc-stevens.nl/research/md5-1block-collision/
     source: Research paper
 
   - text: 'Forging SSL Certificates'

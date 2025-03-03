@@ -48,11 +48,11 @@ learn_more:
     source: Official
 
   - text: 'HTTP/2 vs. HTTP/1.1: How do they affect web performance?'
-    url: https://www.cloudflare.com/learning/performance/http2-vs-http1.1/
+    url: https://files.devsec.tools/cloudflare-http2-vs-http11.pdf
     source: Cloudflare
 
   - text: 'What is HTTP/3?'
-    url: https://www.cloudflare.com/learning/performance/what-is-http3/
+    url: https://files.devsec.tools/cloudflare-http3.pdf
     source: Cloudflare
 
   - text: 'HTTP/2'

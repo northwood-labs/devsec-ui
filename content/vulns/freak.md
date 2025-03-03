@@ -20,7 +20,7 @@ learn_more:
     url: https://www.smacktls.com
 
   - text: '‘FREAK’ flaw undermines security for Apple and Google users, researchers discover'
-    url: https://www.washingtonpost.com/news/the-switch/wp/2015/03/03/freak-flaw-undermines-security-for-apple-and-google-users-researchers-discover/
+    url: https://files.devsec.tools/wapo-freak.pdf
     source: Washington Post
 
   - text: 'Attack of the week: FREAK (or ‘factoring the NSA for fun and profit’)'
