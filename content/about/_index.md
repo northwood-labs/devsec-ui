@@ -1,5 +1,5 @@
 ---
-title: About devsec.tools
+title: About DevSecTools
 description: Security and reliability tooling — by software engineers, for software engineers.
 layout: single
 ---
