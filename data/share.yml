@@ -1,7 +1,7 @@
 ---
-twitter:
-  service: Twitter
-  profile: https://twitter.com/intent/tweet?url=@@PERMALINK@@&text=@@TITLE@@&via=skyzyx
+bluesky:
+  service: Bluesky
+  profile: https://bsky.app/intent/compose?text=@@PERMALINK@@
   type: text/html
   rel: share
 
@@ -13,6 +13,12 @@ facebook:
 
 linkedin:
   service: LinkedIn
-  profile: https://www.linkedin.com/sharing/share-offsite/?url=@@PERMALINK@@&title=@@TITLE@@
+  profile: https://www.linkedin.com/feed/?shareActive=true&shareUrl=@@PERMALINK@@&text=@@TITLE@@
+  type: text/html
+  rel: share
+
+threads:
+  service: Threads
+  profile: https://www.threads.net/intent/post?url=@@PERMALINK@@
   type: text/html
   rel: share

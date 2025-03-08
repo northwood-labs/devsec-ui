@@ -1,14 +1,7 @@
 ---
-
 google_safe_browsing:
   service: Google Safe Browsing
   profile: https://transparencyreport.google.com/safe-browsing/search?url=
-  type: text/html
-  rel: safety
-
-google_certs:
-  service: Google Certificate Transparency Report
-  profile: "https://transparencyreport.google.com/https/certificates?cert_search=include_expired:false;include_subdomains:true;domain:"
   type: text/html
   rel: safety
 

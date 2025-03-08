@@ -2,8 +2,8 @@
 bluesky:
   service: Bluesky
   simpleicon: bluesky
-  profile: https://bsky.app/profile/northwood-labs.bsky.social
-  handle: "@northwood-labs.bsky.social"
+  profile: https://bsky.app/profile/northwood-labs.com
+  handle: "@northwood-labs.com"
   type: text/html
   rel: me
 

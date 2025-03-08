@@ -2,14 +2,10 @@
 googleAnalytics  = "" # https://analytics.google.com/analytics/web/#/a124176424w182560743p180239535/admin/tracking/tracking-code/
 
 # Meta
-title               = "DevSec Tools"
-description         = ""
+title               = "devsec.tools"
+description         = "Security and reliability tooling — by software engineers, for software engineers."
 domain              = "devsec.tools"
-favicon             = ""
-gravatar_1x         = ""
-gravatar_2x         = ""
-gravatar_3x         = ""
-gravatar_4x         = ""
+gravatar_4x         = "https://media.githubusercontent.com/media/northwood-labs/branding/refs/heads/main/gravatar-white-square-512.png"
 iso8601             = "2006-01-02T15:04:05-07:00"
 locale              = "en_US"
 recent_posts_number = 5
@@ -26,6 +22,6 @@ oembedAlt       = ""
 copyrightStart  = "2024"
 copyrightEntity = "Northwood Labs"
 copyrightURL    = "https://northwood-labs.com"
-headerIcon      = ""
 footerLogo      = "https://github.com/northwood-labs/branding/raw/refs/heads/main/NWL-Simplified-Horizontal-Color.svg"
-footerStatement = "Security and reliability tooling — by engineers, for engineers."
+footerStatement = "Security and reliability tooling — by software engineers, for software engineers."
+metaTags        = "http, tls, http testing, tls testing, security testing, devsecops, devsec"
