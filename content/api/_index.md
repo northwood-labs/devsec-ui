@@ -5,7 +5,7 @@ layout: single
 ---
 
 <div align="center">
-  {{< dst-logo 500 >}}
+  {{< dst-logo width="500" class="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl" >}}
 </div>
 
 ## API
