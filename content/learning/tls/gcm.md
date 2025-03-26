@@ -34,12 +34,12 @@ Proper management of initialization vectors (IVs), which must be unique for each
 
 ## Information
 
-| Field        | Value                                                                             |
-|--------------|-----------------------------------------------------------------------------------|
-| Kind         | {{% param-kind %}}                                                                |
-| Invented     | 2004 {{< svg "heroicons/solid/question-mark-circle.svg" "table-question-mark" >}} |
-| Cracked      | -                                                                                 |
-| Related tech | [Fibre Channel], [IPsec], [MACsec], [SSH], [WiGig], [WPA3]                        |
+| Field        | Value                                                                                        |
+|--------------|----------------------------------------------------------------------------------------------|
+| Kind         | {{% param-kind %}}                                                                           |
+| Invented     | 2004 {{< svg path="heroicons/solid/question-mark-circle.svg" class="table-question-mark" >}} |
+| Cracked      | -                                                                                            |
+| Related tech | [Fibre Channel], [IPsec], [MACsec], [SSH], [WiGig], [WPA3]                                   |
 
 [AEAD]: https://en.wikipedia.org/wiki/Authenticated_encryption
 [Fibre Channel]: https://en.wikipedia.org/wiki/Fibre_Channel

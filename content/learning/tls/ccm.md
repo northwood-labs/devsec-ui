@@ -27,12 +27,12 @@ CCM modes of operation are slower than the (preferred) [GCM]({{% relref "GCM" %}
 
 ## Information
 
-| Field        | Value                                                                             |
-|--------------|-----------------------------------------------------------------------------------|
-| Kind         | {{% param-kind %}}                                                                |
-| Invented     | 2002 {{< svg "heroicons/solid/question-mark-circle.svg" "table-question-mark" >}} |
-| Cracked      | -                                                                                 |
-| Related tech | [Bluetooth Low Energy][BLE], [IPsec], [WPA2], [Zigbee]                            |
+| Field        | Value                                                                                        |
+|--------------|----------------------------------------------------------------------------------------------|
+| Kind         | {{% param-kind %}}                                                                           |
+| Invented     | 2002 {{< svg path="heroicons/solid/question-mark-circle.svg" class="table-question-mark" >}} |
+| Cracked      | -                                                                                            |
+| Related tech | [Bluetooth Low Energy][BLE], [IPsec], [WPA2], [Zigbee]                                       |
 
 [BLE]: https://en.wikipedia.org/wiki/Bluetooth_Low_Energy
 [CCM]: https://en.wikipedia.org/wiki/CCM_mode

@@ -8,7 +8,7 @@ layout: single
 
 <div align="center">
   <br>
-  {{< dst-logo 500 >}}
+  {{< dst-logo width="500" >}}
   <br>
 </div>
 

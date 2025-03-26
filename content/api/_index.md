@@ -4,10 +4,6 @@ description: API documentation and language SDKs.
 layout: single
 ---
 
-<div align="center">
-  {{< dst-logo width="500" class="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl" >}}
-</div>
-
 ## API
 
 * [OpenAPI model](https://github.com/northwood-labs/devsec-tools/raw/refs/heads/main/openapi.json)
@@ -15,4 +11,4 @@ layout: single
 
 ## SDKs
 
-See the list on [GitHub](https://github.com/northwood-labs?q=devsec-tools-sdk&sort=name#org-repositories).
+See the list on [GitHub](https://github.com/orgs/northwood-labs/repositories?q=devsec-tools-sdk&sort=name).
