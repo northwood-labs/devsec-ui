@@ -6,7 +6,6 @@ layout: learn-single
 tls_part: key-exchange
 
 learn_more:
-learn_more:
   - text: 'Diffie-Hellman problem'
     url: https://en.wikipedia.org/wiki/Diffie–Hellman_problem
     source: Wikipedia
